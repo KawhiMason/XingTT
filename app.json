@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/firstDemo/firstDemo",
+    "pages/information/information",
+    "pages/interest/interest",
+    "pages/context/context",
+    "pages/index/index",
+    "pages/me/me",
+    "pages/detailed/detailed",
+    "pages/interestCircle/interestCircle",
+    "pages/circle/circle"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "潮汇玩",
+    "navigationBarTextStyle":"black",
+    "backgroundTitleText":"下拉添加标签",
+    "backgroundTextColor":"dark"
+  },"tabBar": {
+    "color": "#bcc1cc",
+    "backgroundColor": "#eeeeee",
+    "borderStyle": "white",
+    "selectedColor": "#338ffc",
+    "list": [
+      {
+        "pagePath": "pages/information/information",
+        "text": "资讯",
+        "iconPath": "img/information.png",
+        "selectedIconPath": "img/information-cur.png"
+      },
+      {
+        "pagePath": "pages/circle/circle",
+        "text": "兴趣圈",
+        "iconPath": "img/interest.png",
+        "selectedIconPath":"img/interest-cur.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "img/my.png",
+        "selectedIconPath": "img/my-cur.png"
+      }
+    ]
+  }
+}

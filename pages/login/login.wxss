@@ -1,0 +1,70 @@
+/* pages/login/login.wxss */
+.back0{
+  height: 350rpx;
+}
+.div1{
+  height: 350rpx;
+}
+.back1{
+  height: 250rpx;
+}
+.image1{
+  height: 200rpx;
+  position: relative;
+  top: 50rpx;  
+  width: 350rpx;
+}
+.ggg{
+  height: 250rpx;
+  width: 300rpx;
+
+}
+.text1{
+  position: relative;
+  left: 400rpx;
+  top:-160rpx;
+}
+.wz1{
+  font-size:30rpx;
+}
+.text2{
+  position: relative;
+  left: 400rpx;
+  top:-180rpx;
+}
+.wz2{
+  font-size:20rpx;
+  color: #756c67;
+}
+.wz3{
+  font-size:25rpx;
+  color: #756c67;
+}
+.text3{
+  position: relative;
+  left: 400rpx;
+  top:-100rpx;
+}
+.image2{
+  position: relative;
+  top: 10rpx;
+  left: 100rpx;
+  height: 40rpx;
+  width: 20px;
+}
+.wz4{
+  position: relative;
+  font-size:30rpx;
+  color: #000;
+  left: 100rpx;
+}
+.text4{
+   position: relative;
+  left: 400rpx;
+  top:-200rpx;
+}
+.text5{
+  position: relative;
+  left: 400rpx;
+  top:-140rpx;
+}

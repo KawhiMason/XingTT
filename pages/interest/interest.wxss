@@ -1,0 +1,137 @@
+/* pages/interest/interest.wxss */
+.search{
+  display: flex;
+  align-self: center;
+}
+.search-inp{
+  width: 580rpx;
+  height: 28rpx;
+  border: 5rpx solid #eee;
+  margin-top: 10rpx;
+  margin-left: 30rpx;
+  padding-left:30rpx;
+  font-size:30rpx;
+  border-radius: 15rpx;
+}
+.close-icon{
+	padding: 8px 10px;
+}
+.search-icon{
+	padding: 8px 12px;
+}
+.wxSearchKeyList{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 30rpx;	
+	box-shadow: 1px 2px 7px #7c7575;
+	border-radius: 5px;
+}
+.wxSearchKeyItem{
+	position: relative;
+	width: auto;
+	height: 40rpx;
+	flex: 0 0 20%;
+	font-size:14px;
+	text-align: center;
+	background: #F1E9E3;
+	border:1px solid #eee;
+	margin: 8px 10px;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.wxSearchTitle{
+	display: block;
+	padding:10px 5px 5px 20px;
+	color: #7c7575;
+	font-size: 12px;
+}
+.wxSearchTitle2{
+	position: absolute;
+	left: -100rpx;
+	top: -90rpx;
+	display: block;
+	padding:10px 5px 5px 10px;
+	color: #7c7575;
+	font-size: 13px;
+}
+
+.hide{
+	display: none;
+
+}
+.show{
+	display: block;
+}
+.wxSearchMindKeyItem{
+	display: flex;
+  padding: 10px 8px;
+  font-size: 16px;
+  color: cornflowerblue;
+  border-bottom: 1px solid #eee;
+}
+.addImg{
+	margin: -26px 8px;
+	float: right;
+	width: 43rpx;
+	height: 43rpx;
+	text-align: center;
+}
+.delBox{
+	position: absolute;
+	width: 100%;
+	height: 180rpx;
+	bottom: 0;
+	background: #dfd3d3;
+	border-radius: 8px 8px 0 0;
+	 display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delImg{
+	width: 90rpx;
+	height: 90rpx;
+}
+
+.delete{
+	position: absolute;
+	width: 35rpx;
+	height: 35rpx;
+	right: -15rpx;
+	top: -15rpx;
+}
+.fly{
+	position: absolute;
+	width: 530rpx;
+	height: 470rpx;
+	margin-left: 100rpx;
+	top: 400rpx;
+}
+.tagscloud {
+	position: relative;
+	top: 120rpx;
+	height: 650rpx;
+	font-size: 12px;
+	color: #333;
+	margin-left:  120rpx;
+	text-align: center;
+}
+.tagsKey{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #FFF;
+	font-family: Arial;
+	margin: 0 10px 15px 0;
+	line-height: 25px;
+	text-align: center;
+	font-size: 16px;
+	padding: 3px 10px;
+	display: inline-block;
+	border-radius: 10px;
+}
+.tagsKey:hover {
+	color: #fff;
+	background: #0099ff;
+
+}

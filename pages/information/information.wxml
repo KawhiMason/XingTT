@@ -1,0 +1,8 @@
+<view class='tig'>下拉添加新标签</view>
+<view class='select'>
+  <block wx:for="{{imgSrc}}" wx:key="*this">
+  <view class='div1' bindtap = 'toSrc'>
+    <image src='{{item}}' class='img1'></image>
+  </view>
+  </block>
+</view>

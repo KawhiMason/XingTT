@@ -1,0 +1,35 @@
+
+  <view class="box1">
+    <b class="btitle">Air Force 1</b>
+    <view class="ltitle">跟上了节奏，穿上了潮牌.</view>
+    <view class="date">2018-4-27</view>
+    <view class="label">
+      <view class="label1">鞋类</view>
+      <view class="label2">NIKE</view>
+    </view>
+  </view>
+  <view class="box2">
+    <p class="write1">＃潮人搭配优选</p>
+    <p class="write2">16 分钟以前</p>
+    <image class="nike1" src="../../img/detailed-nike1.jpg" bindtap='preView1'></image>
+    <view class="write3">Air force 1 X Supreme X NBA</view>
+    <image class="nike2" src="../../img/detailed-nike2.jpg" bindtap='preView2'></image>
+    <image class="nike3" src="../../img/detailed-nike3.jpg" bindtap='preView3'></image>
+    <view class="write4">Air force 1 X CLOT</view>
+    <view class="write5">"丝绸之路"</view>
+    <image class="nike4" src="../../img/detailed-nike4.jpg" bindtap='preView4'></image>
+    <view class="write6">Air force 1 X OFF WHITE</view>
+  </view>
+  <view class="praise" data-index='{{index}}' bindtap="clickMe">
+      <view class="likeamount" >{{loveImg.amount}}</view>
+      <image class="love1"   data-index='{{index}}' src='{{loveImg.src}}'></image>
+  </view>
+
+  <view class="foot">
+    <image class="nikee" src="../../img/detailed-nikee.png"></image>
+    <view class="zi">
+      <P class="zi1">耐克兴趣圈</P>
+      <p class="zi2">NIKE INTEREST CIRCLE</p>
+    </view>
+    <image class="add" src="../../img/add.png" bindtap='add'></image>
+  </view>

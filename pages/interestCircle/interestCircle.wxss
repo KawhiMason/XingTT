@@ -1,0 +1,307 @@
+.interestCircle{
+
+}
+.box1{
+  width:100%;
+  height:200rpx;
+}
+.nike1{
+  width:210rpx;
+  height:200rpx;
+  margin:0rpx;
+}
+.WW{
+  display: block;
+  font-family:"微软雅黑";
+  font-size:40rpx;
+  position: absolute;
+  top: 30rpx;
+  left: 250rpx;
+}
+
+.w1{
+  font-family:"微软雅黑";
+  font-size:35rpx;
+  color:#686463;
+  position:absolute;
+  left: 250rpx;
+  top: 75rpx;
+}
+.w2{
+  font-family:"微软雅黑";
+  font-size:30rpx;
+  color:red;
+  position: absolute;
+  left: 250rpx;
+  top: 125rpx;
+}
+.jia{
+  position: absolute;
+  right: 50rpx;
+  top: 80rpx;
+  height:60rpx;
+  width:60rpx;
+  display:block;
+
+}
+.line1{
+  width:100%;
+  height:2rpx;
+  background-color:#D3D3D3;
+  margin:20rpx 0;
+}
+.box2{
+  width:100%;
+  height:510rpx;
+}
+.w3{
+  font-family:"微软雅黑";
+  font-size:35rpx;
+  margin:30rpx 40rpx;
+}
+.scroll{
+  margin:20rpx 10rpx;
+  white-space: nowrap;
+  display: flex;
+}
+.push{
+  width: 57%;
+  height:500rpx;
+  display: inline-block;
+}
+.picture{
+  display: block;
+  width:100%;
+  height:300rpx;
+}
+.w4{
+  display: block;
+  font-family:"微软雅黑";
+  font-size:30rpx;
+  height:20rpx;
+  margin:20rpx 10rpx;
+}
+.w5{
+  font-family:"微软雅黑";
+  font-size:30rpx;
+  margin:-5rpx 10rpx;
+}
+.line2{
+  width:100%;
+  height:4.5rpx;
+  background-color:#A9A9A9;
+  margin:20rpx 0;
+}
+.box3{
+  position: relative;
+  margin:20rpx 0;
+  height: 700rpx;
+  box-shadow:0 4rpx 0rpx #A9A9A9;
+}
+.head{
+  width:150rpx;
+  height:150rpx;
+  margin:20rpx 30rpx ;
+}
+.write1{
+   margin:-155rpx 220rpx ;
+}
+.w11{
+  font-family:"微软雅黑";
+  font-size:35rpx;
+}
+.w12{
+  display: block;
+  font-family:"微软雅黑";
+  font-size:30rpx;
+  margin:20rpx;
+  color:#D3D3D3;
+}
+.w13{
+  display: block;
+  font-family:"微软雅黑";
+  font-size:32rpx;
+  margin:200rpx 45rpx;
+}
+.niker{ 
+  position: absolute;
+  top: 300rpx;
+  left: 40rpx;
+  width:90%;
+  
+}
+.niker1{
+  width:300rpx;
+  height:300rpx;
+  margin:0rpx 0rpx;
+}
+.niker2{
+  width:300rpx;
+  height:300rpx;
+  margin:0rpx 35rpx;
+}
+.hudong{
+  width:100%;
+  margin-right:50rpx;
+}
+.praise{
+  height:60rpx;
+  width:150rpx;
+  margin:0rpx;
+}
+.likeamount{
+  position: absolute;
+  left: 570rpx;
+  top: 625rpx;
+  height:20rpx;
+  color:black;
+  font-size:90%;
+}
+.love1{
+  position: absolute;
+  top: 620rpx;
+  left: 500rpx;
+
+  width:55rpx;
+  height:55rpx;
+}
+.comment{
+  height:60rpx;
+  width:150rpx;
+  font-size:85%;
+  line-height:50rpx;
+  margin:-49.5rpx 115rpx;
+  text-align:center;
+}
+.logo{
+  position: absolute;
+  top: 630rpx;
+  left: 630rpx;
+  height:45rpx;
+  width:45rpx;
+}
+.line3{
+  width:100%;
+  height:2rpx;
+  background-color:#A9A9A9;
+  margin:-130rpx 0;
+}
+.box4{
+  position: relative;
+  height: 950rpx;
+}
+.likeamount1{
+  height:20rpx;
+  color:black;
+  padding:85rpx;
+  font-size:90%;
+  position:relative;
+  top:9rpx;
+}
+.love2{
+  position:relative;
+  top:-40rpx;
+  left:20rpx;
+  width:60rpx;
+  height:60rpx;
+}
+.foot{
+  width:100%;
+  height:130rpx;
+  bottom:0;
+  position: fixed;
+}
+.foot1{
+  display:block;
+  width:300rpx;
+  height:85rpx;
+  margin:0rpx auto;
+  border-radius:50rpx;
+  background-color:white;
+  line-height:center;
+  box-shadow:0 4rpx 0rpx #A9A9A9;
+  opacity: 0.8;
+}
+.foot-cur{
+  display:none;
+}
+.foot-1{
+  width:40rpx;
+  height:40rpx;
+  margin:25rpx 20rpx;
+}
+.footw1{
+  display:block;
+  margin:-75rpx 82rpx;
+  font-size:80%;
+  font-family:"微软雅黑";
+}
+.foot-2{
+  width:40rpx;
+  height:40rpx;
+  margin:38rpx 160rpx;
+}
+.footw2{
+  position:relative;
+  top:-90rpx;
+  left:220rpx;
+  font-size:80%;
+  font-family:"微软雅黑";
+}
+.kkk{
+  position: absolute;
+  background: #A9A9A9;
+  width: 300rpx;
+  height: 50rpx;
+  top: 600rpx;
+  right: 50rpx;
+}
+.name{
+  position: absolute;
+  top: 40rpx;
+  left: 220rpx;
+  font-family:"微软雅黑";
+  font-size:35rpx;
+}
+.data{
+  position: absolute;
+  top: 100rpx;
+  left: 220rpx;
+  font-size:30rpx;
+  color:#D3D3D3;
+}
+.msg{
+  position: absolute;
+  top: 200rpx;
+  left: 40rpx;
+  font-family:"微软雅黑";
+  font-size:35rpx;
+}
+.niker9{
+  position: absolute;
+  top: 480rpx;
+  left: 40rpx;
+  width:90%;
+}
+.logo2{
+  position: absolute;
+  top: 830rpx;
+  left: 630rpx;
+  height:45rpx;
+  width:45rpx;
+}
+.likeamount2{
+  position: absolute;
+  left: 570rpx;
+  top: 825rpx;
+  height:20rpx;
+  color:black;
+  font-size:90%;
+}
+.love5{
+  position: absolute;
+  top: 820rpx;
+  left: 500rpx;
+  width:55rpx;
+  height:55rpx;
+}

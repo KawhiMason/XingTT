@@ -1,0 +1,27 @@
+<view class="index">
+
+  <!-- 图书搜索  -->
+   <!-- <view class="libsearch">图书搜索</view>
+  <form bindsubmit="formSubmit">
+    <view class="m-search">
+      <icon class="icon-search" type="search" size="18" />
+      <input class="search-inp" placeholder="书名/作者/ISBN" name="book"/>
+      <button class="search-btn" formType="submit">搜索</button>
+    </view>
+  </form> -->
+<view class='aaa'> </view>
+  <!-- 热门图书  -->
+  <view class="title">推荐标签</view>
+  <view class="label">
+    <view class="label1 " data-key="电影" bindtap="addKey1" style="background: {{keyColor1}}">电影</view>
+    <view class="label2 " data-key="电子产品" bindtap="addKey2" style="background: {{keyColor2}}">电子产品</view>
+    <view class="label3" data-key="鞋" bindtap="addKey3" style="background: {{keyColor3}}">鞋</view>
+    <view class="label4" data-key="服装" bindtap="addKey4" style="background: {{keyColor4}}">服装</view>
+    <view class="label5" data-key="玩物" bindtap="addKey5" style="background: {{keyColor5}}">玩物</view>
+    <view class="label6" data-key="美妆" bindtap="addKey6" style="background: {{keyColor6}}">美妆</view>
+    <view class="label7" data-key="街头涂鸦" bindtap="addKey7" style="background: {{keyColor7}}">街头涂鸦</view>
+    <view class="label8" data-key="配饰" bindtap="addKey8" style="background: {{keyColor8}}">配饰</view>
+    <view class="label9" data-key="VANS" bindtap="addKey9" style="background: {{keyColor9}}">VANS</view>
+  </view>
+  <view url="/pages/information/information" class="tap" bindtap="tapSrc">下一步<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>>>></view>
+</view>

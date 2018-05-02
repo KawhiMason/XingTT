@@ -1,0 +1,32 @@
+<!--pages/interest/interest.wxml-->
+<view class='wxSearch'>
+	
+	<view class = "search">
+	 	<input class='search-inp'  confirm-type="search" placeholder="搜索喜欢的标签"  bindfocus='searchFocus'  bindinput='searchConfirm'/>
+	    <icon class="search-icon" type="search" size='18'/>
+	</view>
+	<view class="wxSearchMindKey hide{{showMindKey?'show':''}}">
+            <view class="wxSearchMindKeyList"> 
+                <block wx:for="{{wxSearchData.mindKeys}}" wx:key="*this">
+                    <view class="wxSearchMindKeyItem"  data-key="{{itme}}">{{item}}</view>
+					<image class="addImg" src="{{add}}" bindtap="addImgKey" data-key="{{item}}"></image>
+                </block>
+            </view>
+    </view>
+	<view class = 'wxSearchKey hide{{showView?"show":""}}'>
+		<text class = 'wxSearchTitle'>已选标签</text>
+		<view class = 'wxSearchKeyList'>
+			<block wx:for = "{{wxSearchData.his}}"  wx:key="*this">
+			<view class = "wxSearchKeyItem" bindtouchmove='tagMove' data-key="{{item}}">{{item}}
+				<image src="{{delete}}" class="delete" bindtap="deleteKey" data-key="{{item}}"></image></view>
+			</block>
+		</view>
+	</view>
+
+	<view class="tagscloud" bindtouchmove="update">
+		<text class = 'wxSearchTitle2' >推荐标签</text>
+		<block wx:for = "{{flyKey}}"  wx:key="*this">
+			<view class="tagsKey" style="left: {{item.left}};top:{{item.top}};opacity: {{item.opacity}}; z-index:{{item.zIndex}};background: {{item.color}}" data-key="{{item.value}}" bindtap='tagsAddKey'>{{item.value}}</view>
+		</block>
+	</view>
+</view>

@@ -1,0 +1,32 @@
+/**index.wxss**/
+.pi{
+	width: 160rpx;
+	height: 160rpx;
+	position: absolute;
+	top: 100rpx;
+	left: 70rpx;
+}
+.text{
+	position: absolute;
+	top: 400rpx;
+	margin: 0 60rpx;
+	font-size: 30px;
+	font-weight: 600;
+}
+.hhh{
+	position: absolute;
+	top: 170rpx;
+	left: 300rpx;
+	font-size: 26px;
+	font-weight: 600;
+}
+.data{
+	position: absolute;
+	top: 800rpx;
+	margin: 50rpx 0;
+	margin-left: 300rpx;
+	line-height: 90rpx;
+	font-size: 30px;
+	font-weight: 600;
+	color: #7C7575;
+}

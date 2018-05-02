@@ -1,0 +1,65 @@
+<!--pages/login/login.wxml-->
+<view>
+  <view class='back0'>
+      <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="div1" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+  </view>
+  <view class='back1'>
+    <view class='gggg'>
+      <image src='./image/shoes1.jpg' class='image1'></image>
+    </view>
+    <view class='text1'>
+      <span class="wz1">致远Ari Force 1</span>
+    </view>
+    <view class='text2'>
+      <span class="wz2">越玩越潮</span>
+    </view>
+    <view class='text3'>
+      <span class="wz3">16分钟以前</span>
+      <image class='image2' src="{{img2}}" bindtap='Ari'></image>
+      <span class="wz4">{{math1}}</span>
+    </view>
+  </view>
+  <view class='back1'>
+    <view class='gggg'>
+      <image src='./image/shoes2.jpg' class='image1'></image>
+    </view>
+    <view class='text1'>
+      <span class="wz1">潮流新宠</span>
+    </view>
+    <view class='text2'>
+      <span class="wz2">Adidas x Gosha</span>
+    </view>
+    <view class="text4">
+      <span class="wz2">Rubchiskiy联名鞋款登场</span>
+    </view>
+    <view class='text5'>
+      <span class="wz3">23分钟以前</span>
+      <image class='image2' src="{{img2}}" bindtap='Ari'></image>
+      <span class="wz4">{{math2}}</span>
+    </view>
+  </view>
+  <view class='back1'>
+  <view class='gggg'>
+      <image src='./image/shose3.jpg' class='image1'></image>
+    </view>
+    <view class='text1'>
+      <span class="wz1">科幻老爹鞋</span>
+    </view>
+    <view class='text2'>
+      <span class="wz2">Adidas Twinstrike ADV</span>
+    </view>
+    <view class='text3'>
+      <span class="wz3">45分钟以前</span>
+      <image class='image2' src="{{img2}}" bindtap='Ari'></image>
+      <span class="wz4">{{math3}}</span>
+    </view>
+  </view>
+</view>
+

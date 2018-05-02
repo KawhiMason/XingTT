@@ -1,0 +1,190 @@
+.box1{
+  height:200rpx;
+  margin-left: 30rpx;
+  position: relative;
+}
+.btitle{
+  font-family:"微软雅黑";
+  font-size:50rpx;
+}
+.ltitle{
+  font-family:"微软雅黑";
+  font-size:35rpx;
+  width:80%;
+  margin:5rpx 0rpx;
+}
+.date{
+  font-family:"微软雅黑";
+  font-size:32rpx;  
+  color:#A9A9A9;
+  position: absolute;
+  top: 80rpx;
+  right: 20rpx;
+}
+.label{
+  width:40%;
+}
+.label1{
+  width:130rpx;
+  height:50rpx;
+  position: absolute;
+  top: 140rpx;
+  left: 5rpx;
+  border-radius:30rpx;
+  border: thin solid black;
+  font-family:"微软雅黑";
+  font-size:12px;
+  text-align:center;
+  line-height:50rpx;
+}
+.label2{
+  position: absolute;
+  top: 140rpx;
+  left: 150rpx;
+  width:130rpx;
+  height:50rpx;
+  text-align: center;
+  border-radius:30rpx;
+  border: thin solid black;
+  font-family:"微软雅黑";
+  font-size:12px;
+  text-align:center;
+  line-height:50rpx;
+}
+.box2{
+  position: relative;
+  margin-top:21rpx;
+}
+.write1{
+  font-family:"微软雅黑";
+  font-size:80%;
+  color:#A9A9A9;
+  margin-left:30rpx;
+}
+.write2{
+  font-family:"微软雅黑";
+  font-size:80%;
+  color:#A9A9A9;
+  width:26%;
+  position: absolute;
+  top: 3rpx;
+  right: 20rpx;
+}
+.nike1{
+  display:block;
+    height:500rpx;
+  width:100%; 
+  margin-top:50rpx;
+}
+.write3{
+  margin:40rpx;
+  font-size:80%;
+  text-align:center;
+}
+.nike2{
+  display:block;
+  height:400rpx;
+  width:100%;
+  margin-top: 50rpx; 
+}
+.nike3{
+  clear:both;
+  display:block;
+  height:400rpx;
+  width:550rpx;
+  margin: 50rpx auto;
+}
+.write4{
+  font-size:80%;
+  text-align:center;
+}
+.write5{
+  margin-top:10rpx;
+  font-size:80%;
+  text-align:center;
+}
+.nike4{
+  display:block;
+  width:85%;
+  width: 100%;
+  margin-top:40rpx; 
+  margin-bottom: 50rpx;
+}
+.write6{
+  margin-top:20rpx;
+  font-size:80%;
+  text-align:center;
+  margin-bottom: 200rpx;
+}
+.love{
+  position: fixed;
+  right: 100rpx;
+  width:40rpx;
+  height:40rpx;
+  bottom: 206rpx;
+}
+.praise{
+  position: fixed;
+  right: 0;
+  bottom: 200rpx;
+  width:180rpx;
+  height:70rpx;
+  background-color:#434343;
+  border-top-left-radius:40rpx 40rpx;
+  border-bottom-left-radius:40rpx 40rpx;
+}
+.likeamount{
+  height:20rpx;
+  right: 10rpx;
+  color:white;
+  font-size:90%;
+  position:fixed;
+  bottom: 240rpx;
+}
+.love1{
+  position:fixed;
+  right: 100rpx;
+  width:60rpx;
+  height:60rpx;
+  bottom: 206rpx;
+}
+
+.foot{
+  bottom: 0;
+  height:130rpx;
+  width: 100%;
+  background-color:#fff;
+  position:fixed;
+  box-shadow:0 0 1rpx black;
+}
+.nikee{
+  position: fixed;
+  left: 5rpx;
+  bottom: 5rpx;
+  width:130rpx;
+  height:130rpx;
+}
+.zi{
+  position: fixed;
+  left: 145rpx;
+  bottom: 28rpx;
+  width:400rpx;
+}
+.zi1{
+  font-size:35rpx;
+  font-weight:bold;
+}
+.zi2{
+  display: block;
+  font-size:70%;
+}
+.add{
+  position:fixed;
+  bottom:37rpx;
+  right: 40rpx;
+  width:65rpx;
+  height:65rpx;
+}
+.foot1{
+  height:200rpx;
+}

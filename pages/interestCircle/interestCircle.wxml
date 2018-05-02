@@ -1,0 +1,52 @@
+<view class="interestCircle"  bindtouchmove="move" bindtouchend="end"> 
+  <view class="box1">
+    <image class="nike1" src="../../img/nikee.png"></image>
+    
+    <image class="jia" src="../../img/jia.png" bindtap='add'></image>
+  </view>
+  <view class="WW">NIKE耐克兴趣圈</view>
+      <view class="w1">热度：</view>
+      <view class="w2">9.8亿</view>
+  <view class="line1"></view>
+  <view class="box2">
+    <view class="w3">每日推送 ></view>
+    <scroll-view class="scroll" scroll-x="true">
+      <view class="push" wx:for="{{hotList}}" wx:key="{{}}">
+        <image class="picture" src="{{item.pic}}"></image>
+        <text class="w4">{{item.wri1}}</text>
+        <text class="w5">{{item.wri2}}</text>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="line2"></view>
+  <view class="box3">
+    <image class="head" src="../../img/headp.jpg"></image>
+    <view class='data'>三小时前</view>
+    <view class='name'>IAMYSHAN</view>
+    <view class='msg'>Air Force 1 “Low Retro” </view>
+    <view class="niker">
+      <image class="niker1" src="../../img/niker1.jpg"></image>
+      <image class="niker2" src="../../img/niker2.jpg"></image>
+    </view>
+        <view class="likeamount">{{loveImg2.amount}}</view>
+        <image class="love1" bindtap="clickMe" src="{{loveImg2.src}}"></image>
+        <image class="logo" bindtap="click" src="{{imgLogoSrc}}"></image>
+  </view>
+  <view class="box4">
+    <image class="head" src="../../img/headp.jpg"></image>
+      <view class="name">IAMYSHAN</view>
+      <view class="data">五小时前</view>
+    <view class="msg">NIKE不论是35周年的Air Force，亦或是CLOT联名的AF1 ”白丝绸”，还是年初的超强联名THE TEN系列，按照这 个趋势下去，NIKE的这股热潮依旧会持续很久，以至于成 为了推动潮流圈变化的主要元凶之一。
+    </view>
+    <view class="niker9">
+      <image class="niker1" src="../../img/niker3.jpg"></image>
+      <image class="niker2" src="../../img/niker4.jpg"></image>
+    </view>
+  <view class="hudong" >
+        <view class="likeamount2">{{loveImg3.amount}}</view>
+        <image class="love5" bindtap="clickMe1" src="{{loveImg3.src}}"></image>
+      <image class="logo2" bindtap="click1" src="{{imgLogoSrc1}}"></image>
+    </view>
+  </view>
+  
+</view>

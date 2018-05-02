@@ -1,0 +1,25 @@
+<view class="interest">
+  <view class="box1">
+    <!-- <view class="search"> -->
+    <input type="text" class="search" placeholder="搜索喜欢的标签"></input>
+      <image class="se" src="../../img/search.png"></image>
+    <view  class="search1">搜索</view>
+    <!-- </view> -->
+    <!-- <text class="search1">搜索</text> -->
+  </view>
+  <view class="line1"></view>
+  <view class="box2" bindtap='tiao'>
+    <image class="logo1" src="../../img/nikee.png"></image>
+    <text class="w1">耐克兴趣圈</text>
+    <text class="w11">NIKE INTEREST CIRCLE</text>
+    <text class="w111">2566条动态</text>
+  </view>
+  <view class="line2"></view>
+  <view class="box3">
+    <image class="logo2" src="../../img/adidas.png"></image>
+    <text class="w2">阿迪达斯兴趣圈</text>
+    <text class="w21">ADIDAS INTEREST CIRCLE</text>
+    <text class="w211">1998条动态</text>
+  </view>
+  <view class="line3"></view>
+</view>

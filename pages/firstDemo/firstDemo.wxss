@@ -1,0 +1,146 @@
+
+.title{
+  font-family:"微软雅黑";
+  font-size:19px;
+  color:#7c7575;
+  position:absolute;
+  left:30rpx;
+  top:30rpx;
+}
+.label{
+  height:500rpx;
+  width:100%;
+  position:relative;
+  margin:50rpx 20rpx;
+}
+.label1{
+  width:180rpx;
+  height:70rpx;
+  position:relative;
+  left:180rpx;
+  top:130rpx;
+  border-radius:30rpx;
+  box-shadow:0 0 10rpx black;
+  font-family:"微软雅黑";
+  font-size:90%;
+  text-align:center;
+  line-height:70rpx;
+}
+.label2{
+  width:180rpx;
+  height:70rpx;
+  position:relative;
+  left:80rpx;
+  top:180rpx;
+  box-shadow:0 0 10rpx black;
+  border-radius:30rpx;
+  font-family:"微软雅黑";
+  font-size:90%;
+  text-align:center;
+  line-height:70rpx;
+}
+.label3{
+  width:175rpx;
+  height:65rpx;
+  position:relative;
+  left:400rpx;
+  top:80rpx;
+  box-shadow:0 0 10rpx black;
+  border-radius:30rpx;
+  font-family:"微软雅黑";
+  text-align:center;
+  font-size:90%;
+  line-height:60rpx;
+}
+.label4{
+  width:165rpx;
+  height:60rpx;
+  position:relative;
+  left:260rpx;
+  top:130rpx;
+  box-shadow:0 0 10rpx black;
+  border-radius:30rpx;
+  font-family:"微软雅黑";
+  text-align:center;
+  font-size:90%;
+  line-height:60rpx;
+}
+.label5{
+  width:165rpx;
+  height:60rpx;
+  position:relative;
+  left:150rpx;
+  top:200rpx;
+  box-shadow:0 0 10rpx black;
+  border-radius:30rpx;
+    font-family:"微软雅黑";
+  text-align:center;
+  font-size:90%;
+  line-height:60rpx;
+}
+.label6{
+  width:165rpx;
+  height:60rpx;
+  position:relative;
+  left:450rpx;
+  top:90rpx;
+  box-shadow:0 0 10rpx black;
+  border-radius:30rpx;
+  font-family:"微软雅黑";
+  text-align:center;
+  font-size:90%;
+  line-height:60rpx;
+}
+.label7{
+  width:165rpx;
+  height:60rpx;
+  position:relative;
+  left:350rpx;
+  top:145rpx;
+  box-shadow:0 0 10rpx black;
+  border-radius:30rpx;
+  font-family:"微软雅黑";
+  text-align:center;
+  font-size:90%;
+  line-height:60rpx;
+}
+.label8{
+  width:150rpx;
+  height:50rpx;
+  position:relative;
+  left:230rpx;
+  top:200rpx;
+  box-shadow:0 0 10rpx black;
+  border-radius:30rpx;
+  font-family:"微软雅黑";
+  text-align:center;
+  font-size:90%;
+  line-height:center;
+}
+.label9{
+  width:150rpx;
+  height:50rpx;
+  position:relative;
+  left:300rpx;
+  top:240rpx;
+  box-shadow:0 0 10rpx black;
+  border-radius:30rpx;
+  font-family:"微软雅黑";
+  text-align:center;
+  font-size:90%;
+  line-height:center;
+}
+
+.tap{
+  font-family:"微软雅黑";
+  position:absolute;
+  bottom: 100rpx;
+  right: 50rpx;
+  color: #333644;
+  font-size: 19px;
+}
+.show{
+  background: #B8B0B0;
+}
+
+

@@ -1,0 +1,23 @@
+
+<view class="userImg">  
+  <image class="avatar" src='{{userInfo.avatarUrl}}'></image>
+  <view class='box2'>
+	  <view class="nickname">{{userInfo.nickName}}</view>
+	  <view class="message" bindtap='newMsg'>新消息通知
+		<view class='new'>New</view>
+		<view class='math'>1</view>
+	  </view>
+	  <view class="read">历史浏览记录
+	  	<view class='math2'>1</view></view> 
+	</view> 
+</view>
+<view class='mylike'>
+	<view class='like'>
+		<image class='red' src='../../img/love-cur.png'></image>
+		<view class='msg'>我喜欢</view>
+	</view>
+	<view class='none'>暂无喜欢的内容</view>	
+</view>
+
+
+ 

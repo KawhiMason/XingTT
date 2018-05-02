@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<image src='../../img/pi.jpg' class='pi'></image>
+<view class='hhh'>师兄黄老板</view>
+<view class='text'>梅森  你那个添加喜欢的功能是假的吧 是个bug  我要发条信息让大家知道</view>
+<view class='data'>2分钟前</view>

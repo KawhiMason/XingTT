@@ -1,0 +1,89 @@
+.avatar{
+  position: absolute;
+  left: 50rpx;
+  top: 70rpx;
+    height: 230rpx;
+    width: 230rpx;
+   border-radius:100px;
+}
+.userImg{
+  position: relative;
+}
+.nickname{
+  text-align:center;
+  margin-top: 80rpx;
+  margin: 0 auto;
+  font-size:22px;
+  font-weight:700;
+}
+.message{
+  font-size: 14px;
+  margin-top: 30rpx;
+  margin-left: 28rpx;
+  font-weight: 500;
+  color: #857671;
+}
+.read{
+  margin-top: 10rpx;
+  margin-left: 28rpx;
+  font-size: 12px;
+  color: #857671;
+}
+.title{
+  top: 20rpx;
+  left: 20rpx;
+  font-size: 10px;
+}
+
+.box2{
+  position: absolute;
+  top: 70rpx;
+  left: 300rpx;
+  width: 400rpx;
+  height: 230rpx;
+}
+.new{
+  padding:2rpx 4rpx;
+  border-radius: 5px;
+  color: #fff;
+  background: red;
+  width: 40rpx;
+  font-size: 8px;
+  margin-left: 120rpx;
+  margin-top:-50rpx;
+  z-index: 99;
+}
+.math{
+  margin-left: 180rpx;
+  margin-top: -17rpx;
+}
+.math2{
+  margin-left: 180rpx;
+  margin-top: -34rpx;
+}
+.mylike{
+  position: relative;
+  top: 310rpx;
+  height: 100rpx;
+  width: 100%;
+}
+.red{
+  position: absolute;
+  left: 50rpx;
+  width: 70rpx;
+  height: 70rpx;
+}
+.msg{
+  position: absolute;
+  left: 150rpx;
+  top: 10rpx;
+  font-size: 18px;
+  font-weight: 550;
+}
+.none{
+  position: absolute;
+  top: 80rpx;
+  left: 40%;
+  font-size: 12px;
+  color: #857671;
+}
